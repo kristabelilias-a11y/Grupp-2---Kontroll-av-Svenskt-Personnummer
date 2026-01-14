@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Personnummer-Kontroll.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa1420882454c83cb7c8f9f8908c71494afe35ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Personnummer-Kontroll.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Personnummer-Kontroll.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
