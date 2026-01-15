@@ -19,4 +19,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Personnummer-App\Personnummer-App.csproj" />
+  </ItemGroup>
+
 </Project>
