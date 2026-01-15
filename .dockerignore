@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+.github
+
+# Build results
+**/bin/
+**/obj/
+
+# Test results
+**/TestResults/
+**/*.trx
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
