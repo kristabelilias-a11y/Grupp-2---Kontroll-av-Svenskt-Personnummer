@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '9.0.x'
     
     - name: Restore dependencies
-      run:  dotnet restore Personnummer. sln
+      run:  dotnet restore Personnummer.sln
     
     - name: Build
       run: dotnet build Personnummer.sln --configuration Release --no-restore
@@ -32,7 +32,7 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()
       with:
-        name: . NET Tests
+        name: .NET Tests
         path: '**/test-results.trx'
         reporter: dotnet-trx
         fail-on-error: true
