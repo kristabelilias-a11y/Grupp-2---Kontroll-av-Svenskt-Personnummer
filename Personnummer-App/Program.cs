@@ -29,6 +29,8 @@ while (true)
     bool ärGiltigt = PersonnummerValidator.Validera(input);
     string info = PersonnummerValidator.GetValideringsInfo(input);
 
+    // giltigt eller ogiltigt
+    
     if (ärGiltigt)
     {
         Console.ForegroundColor = ConsoleColor. Green;
